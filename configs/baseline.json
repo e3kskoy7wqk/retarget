@@ -1,0 +1,51 @@
+{
+  "thresholds": {
+    "high_running": 4,
+    "overload_queue": 16,
+    "overload_running": 32
+  },
+  "idle": {
+    "online_target_mib": 34816,
+    "offline_target_mib": 47104,
+    "offline_timeslice_us": 2048,
+    "pause_offline": false,
+    "refresh_on_entry": false,
+    "manage_online_target": true,
+    "manage_offline_target": true,
+    "wait_for_migration": true,
+    "incremental_migration": true
+  },
+  "low": {
+    "online_target_mib": 34816,
+    "offline_target_mib": 47104,
+    "offline_timeslice_us": 2048,
+    "pause_offline": false,
+    "refresh_on_entry": false,
+    "manage_online_target": true,
+    "manage_offline_target": true,
+    "wait_for_migration": true,
+    "incremental_migration": true
+  },
+  "high": {
+    "online_target_mib": 34816,
+    "offline_target_mib": 47104,
+    "offline_timeslice_us": 2048,
+    "pause_offline": false,
+    "refresh_on_entry": false,
+    "manage_online_target": true,
+    "manage_offline_target": true,
+    "wait_for_migration": true,
+    "incremental_migration": true
+  },
+  "overload": {
+    "online_target_mib": 34816,
+    "offline_target_mib": 47104,
+    "offline_timeslice_us": 2048,
+    "pause_offline": true,
+    "refresh_on_entry": false,
+    "manage_online_target": true,
+    "manage_offline_target": true,
+    "wait_for_migration": true,
+    "incremental_migration": true
+  }
+}

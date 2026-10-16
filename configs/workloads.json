@@ -1,0 +1,15 @@
+{
+  "main": {
+    "source_window_start_seconds": 3062760,
+    "source_window_duration_seconds": 2400,
+    "time_compression": 5,
+    "duration_seconds": 480,
+    "thin_rate": 0.05,
+    "thin_method": "hash",
+    "seed": 2027,
+    "max_input_tokens": 1024,
+    "max_output_tokens": 128,
+    "requests": 444,
+    "manifest_sha256": "21ea7749bd908d990dd4f31a30904db3e8c6c7e7b5beb6f3e1cdb76a12e82c0b"
+  }
+}

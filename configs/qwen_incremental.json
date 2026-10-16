@@ -1,0 +1,72 @@
+{
+  "timeslice_function": {
+    "base_us": 2048,
+    "running_weight": 1.0,
+    "queue_weight": 4.0,
+    "min_us": 2048,
+    "max_us": 2048,
+    "quantum_us": 128,
+    "min_update_seconds": 0.25,
+    "relative_change": 0.1,
+    "recovery_hold_seconds": 1.0
+  },
+  "thresholds": {
+    "high_running": 4,
+    "overload_queue": 16,
+    "overload_running": 32
+  },
+  "idle": {
+    "online_target_mib": 34816,
+    "offline_target_mib": 47104,
+    "offline_timeslice_us": 2048,
+    "pause_offline": false,
+    "refresh_on_entry": false,
+    "manage_online_target": true,
+    "manage_offline_target": true,
+    "wait_for_migration": true,
+    "incremental_migration": true
+  },
+  "low": {
+    "online_target_mib": 34816,
+    "offline_target_mib": 47104,
+    "offline_timeslice_us": 2048,
+    "pause_offline": false,
+    "refresh_on_entry": false,
+    "manage_online_target": true,
+    "manage_offline_target": true,
+    "wait_for_migration": true,
+    "incremental_migration": true
+  },
+  "high": {
+    "online_target_mib": 34816,
+    "offline_target_mib": 47104,
+    "offline_timeslice_us": 2048,
+    "pause_offline": false,
+    "refresh_on_entry": false,
+    "manage_online_target": true,
+    "manage_offline_target": true,
+    "wait_for_migration": true,
+    "incremental_migration": true
+  },
+  "overload": {
+    "online_target_mib": 34816,
+    "offline_target_mib": 47104,
+    "offline_timeslice_us": 2048,
+    "pause_offline": true,
+    "refresh_on_entry": false,
+    "manage_online_target": true,
+    "manage_offline_target": true,
+    "wait_for_migration": true,
+    "incremental_migration": true
+  },
+  "cache_window": {
+    "allocation_bytes": 448790528,
+    "allocation_count": 80,
+    "bytes_per_token": 2048,
+    "width_tokens": 32768,
+    "lookahead_tokens": 16384,
+    "quantum_tokens": 8192,
+    "min_update_seconds": 1.0,
+    "idle_only": true
+  }
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.so
+*.o
+*.a
+.a.so.build.*
+data/
+models/
+results/
+*.log
